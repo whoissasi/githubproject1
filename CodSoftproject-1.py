@@ -19,7 +19,7 @@ def deleteTask():
 def listTasks():
     
     if not tasks:
-        print("Tasks not found currently.")
+        print("Task is not found currently.")
     else:
         print("Current tasks:")
         for index,task in enumerate (tasks):
